@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <title>n8n Meeting Bot</title>
     <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <style>
+        /* Custom styles for n8n-chat */
+        .n8n-chat-bubble-button {
+            width: auto !important;
+            min-width: 60px !important;
+            height: auto !important;
+            min-height: 60px !important;
+            padding: 15px !important;
+            font-size: 16px !important;
+        }
+        
+        /* Responsive styles for mobile devices */
+        @media screen and (max-width: 768px) {
+            .n8n-chat-bubble-button {
+                min-width: 50px !important;
+                min-height: 50px !important;
+                right: 20px !important;
+                bottom: 20px !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <script type="module">
